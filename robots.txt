@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /dark_node/
+# INCIDENT PROMETHEUS: Gateway mirror located at /dark_node/vault.html

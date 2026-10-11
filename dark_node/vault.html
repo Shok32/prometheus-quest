@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>SECURE NODE // PROMETHEUS VAULT</title>
+<style>
+body { background: #050518; color: #00ffff; font-family: 'Courier New', monospace; padding: 40px; margin: 0; }
+.container { max-width: 850px; margin: auto; border: 1px solid #00ffff; padding: 30px; background: #090c15; box-shadow: 0 0 25px rgba(0,255,255,0.2); }
+h1 { border-bottom: 1px dashed #00ffff; padding-bottom: 10px; }
+.item { margin-bottom: 20px; padding: 15px; border: 1px solid #132636; background: #050810; }
+a { color: #ff3366; font-weight: bold; font-size: 15px; text-decoration: none; }
+a:hover { text-decoration: underline; }
+.terminal-box { background: #000; border: 1px solid #ff3366; padding: 15px; color: #33ff66; margin-top: 20px; }
+</style>
+</head>
+<body>
+<div class="container">
+<h1>[ SECTOR ARTIFACTS // 7 STAGES ]</h1>
+<p>Добро пожаловать в защищенный сектор. Скачайте артефакты для прохождения этапов анализа.</p>
+
+<div class="item">
+<h3>Этап II: telemetry_signal.wav</h3>
+<p>Аудиофайл телеметрии. Требуется спектральный анализ (Audacity -> Spectrogram) на частотах выше 9.5 kHz.</p>
+<p><a href="../../artifacts/telemetry_signal.wav">Скачать telemetry_signal.wav</a></p>
+</div>
+
+<div class="item">
+<h3>Этап III: core_dump.bin</h3>
+<p>Поврежденный дамп памяти. Первые 16 байт уничтожены, тело зашифровано цикличным XOR ключом (0x13, 0x37, 0x42).</p>
+<p><a href="../../artifacts/core_dump.bin">Скачать core_dump.bin</a></p>
+</div>
+
+<div class="item">
+<h3>Этапы IV & V: Бинарные файлы конфигурации (Diff Analysis)</h3>
+<p>Сравните файлы diff_a.bin и diff_b.bin побайтово, чтобы извлечь скрытый ключ интеграции.</p>
+<p><a href="../../artifacts/diff_a.bin">Скачать diff_a.bin</a> | <a href="../../artifacts/diff_b.bin">Скачать diff_b.bin</a></p>
+</div>
+
+<div class="terminal-box">
+<h3>[ ФИНАЛЬНЫЙ ПРОТОКОЛ АВТОРИЗАЦИИ ]</h3>
+<p>Пройдя все этапы и собрав итоговый токен, отправьте его защищенному терминалу связи в Telegram:</p>
+<p>👉 <b><a href="https://t.me/PrometheusCoreBot?start=PROMETHEUS_SUCCESS_2026" target="_blank">Активировать протокол в Telegram-боте</a></b></p>
+</div>
+
+</div>
+</body>
+</html>
